@@ -1,7 +1,7 @@
-import { Routes, Route, Navigate } from "react-router-dom";
-import MainLayout from "../layouts/MainLayout";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Dashboard from "../pages/Dashboard";
 import Crypto from "../pages/Crypto";
+import MainLayout from "../layouts/mainlayout";
 
 const AppRoutes = () => {
   return (
