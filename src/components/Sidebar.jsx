@@ -1,8 +1,5 @@
-import Navbar from "./Navbar";
-
-import { NavLink } from "react-router-dom"; 
-import { LayoutDashboard, Bitcoin } from "lucide-react"; 
-
+import { NavLink } from "react-router-dom";
+import { LayoutDashboard, Bitcoin } from "lucide-react";
 
 const Sidebar = () => {
   const linkClass = ({ isActive }) =>
